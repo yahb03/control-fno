@@ -1,0 +1,43 @@
+name: Build Windows EXE
+
+# Este flujo de trabajo se activará cuando hagas push o un pull request hacia la rama main
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      # 1) Descarga el código del repositorio en la máquina virtual de Windows
+      - name: Check out the code
+        uses: actions/checkout@v3
+
+      # 2) Configura la versión de Python (cambia "3.9" a la que uses)
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      # 3) Instala tus dependencias (usa tu archivo requirements.txt)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4) Empaqueta el proyecto con PyInstaller
+      - name: Build .exe with PyInstaller
+        run: |
+          pyinstaller --onefile main.py
+          # Ajusta "main.py" si tu archivo principal tiene otro nombre
+          # Para incluir ícono (opcional): --icon=icon.ico
+
+      # 5) Sube el .exe (ubicado en dist/*.exe) como artefacto para descargarlo
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist-executable
+          path: dist/*.exe
