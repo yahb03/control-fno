@@ -37,7 +37,7 @@ jobs:
 
       # 5) Sube el .exe (ubicado en dist/*.exe) como artefacto para descargarlo
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: dist-executable
           path: dist/*.exe
