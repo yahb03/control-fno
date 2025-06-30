@@ -1,0 +1,33 @@
+2025-03-22 02:32:42,080 - database - INFO - Tablas creadas exitosamente
+2025-03-22 02:33:21,748 - personas - INFO - Imagen copiada: /Users/kwaltas/Documents/control-fno/imagenes_personas/1047479430_20250322023321.jpeg
+2025-03-22 02:33:21,751 - personas - INFO - Persona registrada: yeisson afored herrera - Cédula: 1047479430
+2025-03-22 02:33:31,696 - principal - INFO - Búsqueda sin resultados para cédula: 1047479430
+2025-03-22 02:33:36,046 - principal - INFO - Búsqueda por apellido sin resultados para: herrera
+2025-03-22 02:36:46,364 - database - INFO - Tablas creadas exitosamente
+2025-03-22 02:37:22,833 - personas - INFO - Imagen copiada: /Users/kwaltas/Documents/control-fno/imagenes_personas/1111_20250322023722.jpeg
+2025-03-22 02:37:22,837 - personas - INFO - Persona registrada: asdsad asdsad - Cédula: 1111
+2025-03-22 02:42:54,650 - database - INFO - Tablas creadas exitosamente
+2025-03-22 02:43:18,307 - personas - INFO - Imagen copiada: /Users/kwaltas/Documents/control-fno/imagenes_personas/1111_20250322024318.jpeg
+2025-03-22 02:43:18,311 - personas - INFO - Persona registrada: asd sad - Cédula: 1111
+2025-03-22 02:43:26,936 - principal - INFO - Búsqueda de personal exitosa para cédula: 1111
+2025-03-22 02:44:50,088 - principal - INFO - Búsqueda de personal exitosa para cédula: 1111
+2025-03-22 02:46:36,903 - database - INFO - Tablas creadas exitosamente
+2025-03-22 02:46:57,383 - vehiculos - INFO - Imagen copiada: /Users/kwaltas/Documents/control-fno/imagenes_vehiculos/NDU48F_20250322024657.jpeg
+2025-03-22 02:46:57,386 - vehiculos - INFO - Vehículo registrado: NDU48F - asdas sadasd
+2025-03-22 02:47:08,905 - principal - INFO - Búsqueda de vehículo exitosa para placa: NDU48F
+2025-03-22 02:47:39,472 - database - INFO - Tablas creadas exitosamente
+2025-03-22 02:47:54,801 - visitantes - INFO - Visitante registrado: asdsad adasd - Cédula: 222
+2025-03-22 02:48:10,850 - visitantes - INFO - Visitante registrado: asdsad asdasd - Cédula: 444
+2025-03-22 02:48:23,387 - principal - INFO - Búsqueda de visitante exitosa para cédula: 444
+2025-03-22 02:53:13,330 - database - INFO - Tablas creadas exitosamente
+2025-03-22 02:53:24,100 - principal - INFO - Búsqueda sin resultados para cédula: 1047479430
+2025-03-22 02:53:33,038 - principal - INFO - Búsqueda de vehículo exitosa para placa: NDU48F
+2025-03-22 02:54:00,054 - principal - INFO - Búsqueda de visitante exitosa para cédula: 444
+2025-03-22 02:54:04,600 - principal - INFO - Búsqueda sin resultados para cédula: 111
+2025-03-22 02:54:07,303 - principal - INFO - Búsqueda de personal exitosa para cédula: 1111
+2025-03-22 03:01:34,942 - database - INFO - Tablas creadas exitosamente
+2025-06-30 17:07:47,825 - database - INFO - Tablas creadas exitosamente
+2025-06-30 17:08:01,160 - principal - INFO - Búsqueda sin resultados para cédula: 1047479430
+2025-06-30 17:08:06,976 - principal - INFO - Búsqueda por apellido sin resultados para: herrera
+2025-06-30 17:08:13,622 - principal - INFO - Búsqueda de vehículo exitosa para placa: NDU48F
+2025-06-30 17:58:13,636 - database - INFO - Tablas creadas exitosamente
